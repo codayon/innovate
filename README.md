@@ -41,4 +41,4 @@ the more you know the better `<weight>`
 900	Black (Heavy)
 ```
 
-`disclaimer:` make sure to duplicate the figma file to be able to edit and not all font weights are supported to 100-900
+`disclaimer:` make sure to duplicate the figma file to be able to edit and not all font weights are supported to 100-900. however, what i have seen is that, most of them supports 400-800.
