@@ -1,5 +1,64 @@
+/* common styling end */
 * {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 0.8;
+}
+
+/* common styling end */
+
+/* navbar section start */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin-top: 18px;
+}
+
+.navbar-menu {
   font-family: "Open Sans", serif;
   font-size: 18px;
   font-weight: 600;
+  color: black;
+  margin: 15px;
 }
+.navbar-button p {
+  border-radius: 18px;
+  background: #8454F5;
+  font-family: "Nunito", serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 25px 30px;
+  color: white;
+}
+/* navbar section end */
+
+/* banner section start */
+#banner {
+  background: url(../img/banner.png);
+  padding-top: 282px;
+  padding-bottom: 256px;
+}
+.banner-button {
+  
+}
+
+/* banner section end */
