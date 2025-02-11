@@ -26,7 +26,7 @@ p {
 
 /* navbar section start */
 .navbar {
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   left: 0;
@@ -42,7 +42,7 @@ p {
 }
 .navbar-button p {
   border-radius: 18px;
-  background: #8454F5;
+  background: #8454f5;
   font-family: "Nunito", serif;
   font-size: 18px;
   font-weight: 600;
@@ -61,20 +61,20 @@ p {
   padding-bottom: 256px;
 }
 .banner-text h1 {
-  color: #1D354F;
+  color: #1d354f;
   font-weight: 800;
   font-size: 64px;
   line-height: 84px;
 }
 .banner-text p {
-  color: #29313D;
+  color: #29313d;
   line-height: 200%;
   margin-top: 50px;
 }
 .banner-button p {
   display: inline-block;
   border-radius: 18px;
-  background: #8454F5;
+  background: #8454f5;
   font-family: "Nunito", serif;
   font-size: 20px;
   font-weight: 400;
@@ -83,5 +83,42 @@ p {
   margin-top: 68px;
   color: white;
 }
-
 /* banner section end */
+
+/* service section start */
+.service-text h3 {
+  margin-top: 110px;
+  margin-bottom: 110px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  color: #29313d;
+  font-size: 48px;
+}
+.service-div-item-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+  background: #c4c4c4;
+}
+.service-div-item h4 {
+  margin-top: 33px;
+  margin-bottom: 27px;
+  font-size: 28px;
+  font-family: "Poppins", serif;
+  color: #29313d;
+}
+.service-div-item p {
+  font-family: "Nunito", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  margin-bottom: 36px;
+  color: #29313d;
+}
+.service-div-item a p {
+  font-family: "Nunito", serif;
+  color: #29313d;
+  font-size: 16px;
+  font-weight: 700;
+}
+/* service section end */
