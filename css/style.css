@@ -19,7 +19,7 @@ h6,
 p {
   padding: 0;
   margin: 0;
-  /* line-height: 0.8; */
+  line-height: 0.8;
 }
 
 /* common styling end */
@@ -57,19 +57,19 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 282px;
+  padding-top: 281px;
   padding-bottom: 256px;
 }
 .banner-text h1 {
   color: #1D354F;
   font-weight: 800;
   font-size: 64px;
-  /* line-height: 45px; */
+  line-height: 84px;
 }
 .banner-text p {
   color: #29313D;
   line-height: 200%;
-  /* margin-top: 50px; */
+  margin-top: 50px;
 }
 .banner-button p {
   display: inline-block;
@@ -78,7 +78,9 @@ p {
   font-family: "Nunito", serif;
   font-size: 20px;
   font-weight: 400;
-  padding: 23px 40px;
+  line-height: 0.8;
+  padding: 25px 40px;
+  margin-top: 68px;
   color: white;
 }
 
