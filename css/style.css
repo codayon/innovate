@@ -121,4 +121,22 @@ p {
   font-size: 16px;
   font-weight: 700;
 }
+.service-div {
+  margin-bottom: 100px;
+}
 /* service section end */
+
+.product-image-back {
+  position: relative;
+}
+.product-image-back-item {
+  position: absolute;
+}
+.product-image-item {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* product section end */
