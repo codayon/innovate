@@ -126,6 +126,10 @@ p {
 }
 /* service section end */
 
+/* product section start */
+.product-margin {
+  margin: 100px 0px;
+}
 .product-image-back {
   position: relative;
 }
@@ -138,5 +142,51 @@ p {
   left: 50%;
   transform: translateX(-50%);
 }
-
+.product-text h3 {
+  width: 601px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 140%;
+  font-family: "Poppins", serif;
+  color: #29313D;
+}
+.product-text p {
+  width: 488px;
+  font-weight: 18px;
+  font-weight: normal;
+  line-height: 200%;
+  color: #29313D;
+  font-family: "Nunito", serif;
+}
+.product-text-div {
+  margin-top: 50px;
+}
+.product-text-div-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+  background: #c4c4c4;
+}
+.product-text-div-item h4 {
+  margin-top: 33px;
+  margin-bottom: 27px;
+  font-size: 28px;
+  font-family: "Poppins", serif;
+  color: #29313d;
+}
+.product-text-div-item p {
+  font-family: "Nunito", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  margin-bottom: 36px;
+  color: #29313d;
+  width: 268px;
+}
+.product-text-div-item a p {
+  font-family: "Nunito", serif;
+  color: #29313d;
+  font-size: 16px;
+  font-weight: 700;
+}
 /* product section end */
