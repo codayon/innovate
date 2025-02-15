@@ -208,6 +208,7 @@ p {
   font-weight: 400;
   color: #29313d;
   padding-bottom: 45px;
+  text-transform: capitalize;
   font-family: "Poppins", serif;
 }
 .showcase-item {
@@ -227,3 +228,45 @@ p {
   width: 100%;
 }
 /* showcase section end */
+
+/* companies section start */
+#companies {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.companies-text {
+  display: flex;
+  justify-content: space-between;
+}
+.companies-text h3 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #29313d;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-family: "Poppins", serif;
+  width: 529px;
+}
+.companies-text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #f8fdfe;
+  text-transform: capitalize;
+  font-family: "Nunito", serif;
+  background: #6a55ea;
+  padding: 25px 40px;
+  border-radius: 20px;
+  display: inline-block;
+}
+.companies-logo {
+  display: flex;
+  justify-content: space-between;
+}
+.companies-logo-item {
+  padding: 40px;
+  background: #F3F7FD;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 65px;
+}
+/* companies section end */
