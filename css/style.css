@@ -190,3 +190,40 @@ p {
   font-weight: 700;
 }
 /* product section end */
+
+/* showcase section start */
+#showcase {
+  padding-top: 135px;
+  padding-bottom: 120px;
+}
+.showcase-text h3 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #29313d;
+  padding-bottom: 40px;
+  font-family: "Poppins", serif;
+}
+.showcase-text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #29313d;
+  padding-bottom: 45px;
+  font-family: "Poppins", serif;
+}
+.showcase-item {
+  height: 650px;
+  width: 310px;
+  background: #c4c4c4;
+  border-radius: 20px;
+}
+.showcase-button {
+  width: 108px;
+  height: 12px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.showcase-button img {
+  height: 100%;
+  width: 100%;
+}
+/* showcase section end */
