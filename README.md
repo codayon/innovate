@@ -1,8 +1,6 @@
 ## project-name: innovate
 
-here are the links to [bootstrap](https://getbootstrap.com/), [font-awesome](https://fontawesome.com/), [google-fonts](https://fonts.google.com/) & [figma](<https://www.figma.com/design/m72sQU4n1HL0SiOEdEMOXF/Innovate-Main-(Copy)?node-id=0-1&t=aacqQf6xgdI1Lach-1>)
-
-
+here are the links to [bootstrap](https://getbootstrap.com/), [font-awesome](https://fontawesome.com/), [google-fonts](https://fonts.google.com/) & [figma](https://www.figma.com/design/ivTloZrR3Yv171T5ntmPB6/innovate?node-id=0-1&t=XPdOuxUcWPXWFfJX-1)
 
 use `<weight>` value from 100 to 900
 
