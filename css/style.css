@@ -495,3 +495,41 @@ p {
   font-weight: 400;
 }
 /* posts section end */
+
+/* banner bottom section start */
+#banner-bottom {
+  background: #f8fdfe;
+  padding: 120px 0px;
+}
+.banner-bottom-inside {
+  padding: 160px 100px;
+  background: #6a55ea;
+  border-radius: 80px;
+  align-items: center;
+}
+.banner-bottom-inside h3 {
+  font-size: 58px;
+  color: #fdfdfd;
+  line-height: 140%;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: "Poppins", serif;
+}
+.banner-bottom-button {
+  width: 153px;
+  height: 64px;
+  background: #f8fdfe;
+  border-radius: 20px;
+  position: relative;
+}
+.banner-bottom-button p {
+  left: 50%;
+  top: 50%;
+  font-size: 18px;
+  color: #6a55ea;
+  position: absolute;
+  text-transform: capitalize;
+  font-family: "Nunito", serif;
+  transform: translate(-50%, -50%);
+}
+/* banner bottom section end */
