@@ -533,3 +533,49 @@ p {
   transform: translate(-50%, -50%);
 }
 /* banner bottom section end */
+
+/* footer section start */
+#footer {
+  padding-top: 140px;
+  padding-bottom: 70px;
+}
+.footer-text-one {
+  width: 449px;
+  height: 96px;
+}
+.footer-text-one p {
+  font-size: 18px;
+  color: rgba(41, 49, 61, 0.90);
+  font-weight: 400;
+  line-height: 180%;
+  padding-top: 55px;
+  text-transform: capitalize;
+  font-family: "Nunito", serif;
+}
+.footer-column-two p {
+  font-size: 18px;
+  color: #29313d;
+  font-weight: 400;
+  padding-bottom: 40px;
+  text-transform: capitalize;
+  font-family: "Nunito", serif;
+}
+.footer-column-two-active p {
+  font-weight: 600;
+  font-size: 24px;
+  padding-bottom: 60px;
+}
+.footer-column-two-footer-right {
+  width: 320px;
+}
+.footer-column-two-footer {
+  padding-top: 45px;
+}
+.footer-column-two-footer-left p,
+.footer-column-two-footer-right p {
+  font-size: 18px;
+  font-family: "Nunito", serif;
+  color: rgba(41, 49, 61, 0.9);
+  text-transform: capitalize;
+}
+/* footer section end */
