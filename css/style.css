@@ -402,8 +402,8 @@ p {
   padding-bottom: 20px;
 }
 .posts-left-text-author-avatar {
-  height: 64px;
-  width: 64px;
+  height: 58px;
+  width: 58px;
   background: #c4c4c4;
   border-radius: 50%;
 }
@@ -487,7 +487,6 @@ p {
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 40px;
-  
 }
 .posts-right-tag h3 {
   font-size: 28px;
