@@ -20,6 +20,7 @@ p {
   padding: 0;
   margin: 0;
   line-height: 0.8;
+  text-transform: capitalize;
 }
 
 /* common styling end */
@@ -65,11 +66,15 @@ p {
   font-weight: 800;
   font-size: 64px;
   line-height: 84px;
+  font-family: "Open Sans", serif;
 }
 .banner-text p {
+  font-family: "Nunito", serif;
+  font-size: 18px;
   color: #29313d;
   line-height: 200%;
-  margin-top: 50px;
+  padding-top: 35px;
+  padding-bottom: 75px;
 }
 .banner-button p {
   display: inline-block;
@@ -80,19 +85,28 @@ p {
   font-weight: 400;
   line-height: 0.8;
   padding: 25px 40px;
-  margin-top: 68px;
   color: white;
 }
 /* banner section end */
 
 /* service section start */
 .service-text h3 {
-  margin-top: 110px;
-  margin-bottom: 110px;
+  padding-top: 110px;
+  padding-bottom: 90px;
   font-family: "Poppins", serif;
   font-weight: 600;
   color: #29313d;
   font-size: 48px;
+}
+.service-div-item {
+  padding: 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.service-div-item:hover {
+  box-shadow: 0px 0px 22px -1px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: 0px 0px 22px -1px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 0px 22px -1px rgba(0, 0, 0, 0.31);
 }
 .service-div-item-box {
   width: 100px;
@@ -108,6 +122,7 @@ p {
   color: #29313d;
 }
 .service-div-item p {
+  width: 290px;
   font-family: "Nunito", serif;
   font-weight: 400;
   font-size: 18px;
@@ -127,6 +142,10 @@ p {
 /* service section end */
 
 /* product section start */
+#product {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .product-margin {
   margin: 100px 0px;
 }
@@ -141,9 +160,15 @@ p {
   top: -25px;
   left: 50%;
   transform: translateX(-50%);
+  transition: 0.5s;
+}
+.product-image-item:hover {
+  box-shadow: 0px 0px 22px -1px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: 0px 0px 22px -1px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 0px 22px -1px rgba(0, 0, 0, 0.31);
 }
 .product-text h3 {
-  width: 601px;
+  width: 672px;
   font-size: 48px;
   font-weight: 600;
   line-height: 140%;
@@ -151,15 +176,16 @@ p {
   color: #29313d;
 }
 .product-text p {
-  width: 488px;
-  font-weight: 18px;
+  width: 443px;
+  font-size: 18px;
   font-weight: normal;
   line-height: 200%;
   color: #29313d;
+  padding-top: 40px;
   font-family: "Nunito", serif;
 }
 .product-text-div {
-  margin-top: 50px;
+  padding-top: 40px;
 }
 .product-text-div-box {
   width: 100px;
@@ -179,9 +205,10 @@ p {
   font-weight: 400;
   font-size: 18px;
   line-height: 200%;
-  margin-bottom: 36px;
   color: #29313d;
-  width: 268px;
+  width: 290px;
+  padding-top: 0;
+  padding-bottom: 10px;
 }
 .product-text-div-item a p {
   font-family: "Nunito", serif;
@@ -195,6 +222,7 @@ p {
 #showcase {
   padding-top: 135px;
   padding-bottom: 120px;
+  background: #f8fdfe;
 }
 .showcase-text h3 {
   font-size: 48px;
@@ -216,6 +244,12 @@ p {
   width: 310px;
   background: #c4c4c4;
   border-radius: 20px;
+  transition: 0.5s;
+}
+.showcase-item:hover {
+  box-shadow: 0px 0px 22px -1px rgba(0, 0, 0, 0.31);
+  -webkit-box-shadow: 0px 0px 22px -1px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 0px 22px -1px rgba(0, 0, 0, 0.31);
 }
 .showcase-button {
   width: 108px;
@@ -349,6 +383,7 @@ p {
   color: #29313d;
   font-size: 18px;
   padding-top: 27px;
+  text-transform: capitalize;
   font-family: "Nunito", serif;
 }
 /* subscription section end */
@@ -545,7 +580,7 @@ p {
 }
 .footer-text-one p {
   font-size: 18px;
-  color: rgba(41, 49, 61, 0.90);
+  color: rgba(41, 49, 61, 0.9);
   font-weight: 400;
   line-height: 180%;
   padding-top: 55px;
