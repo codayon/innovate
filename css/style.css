@@ -352,3 +352,147 @@ p {
   font-family: "Nunito", serif;
 }
 /* subscription section end */
+
+/* posts section start */
+#posts {
+  padding-top: 135px;
+  padding-bottom: 120px;
+}
+.posts-left-out h3 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #29313d;
+  padding-bottom: 85px;
+  text-transform: capitalize;
+  font-family: "Poppins", serif;
+}
+.posts-left-out p {
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 25px 40px;
+  color: #f8fdfe;
+  background: #6a55ea;
+  display: inline-block;
+  text-transform: capitalize;
+  margin-top: 18px;
+}
+.posts-left-content {
+  display: flex;
+  padding-bottom: 30px;
+}
+.posts-left-div {
+  height: 300px;
+  border-radius: 40px;
+  background: #c4c4c4;
+}
+.posts-left-text {
+  margin-left: 20px;
+}
+.posts-left-text-header {
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #29313d;
+  text-transform: capitalize;
+  font-family: "Poppins", serif;
+  line-height: 160%;
+}
+.posts-left-text-author {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.posts-left-text-author-avatar {
+  height: 64px;
+  width: 64px;
+  background: #c4c4c4;
+  border-radius: 50%;
+}
+.posts-left-text-author-info {
+  padding-left: 15px;
+}
+.posts-left-text-author-info h3 {
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #29313d;
+  text-transform: capitalize;
+  font-family: "Poppins", serif;
+}
+.posts-left-text-author-info p {
+  color: #29313d;
+  font-size: 18px;
+  padding-top: 15px;
+  font-family: "Nunito", serif;
+}
+.posts-left-text-desc p {
+  color: #29313d;
+  font-size: 18px;
+  font-family: "Nunito", serif;
+  font-weight: 400;
+  line-height: 200%;
+}
+.posts-right-out-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 35px;
+}
+.posts-right-out-top-header {
+  width: 132px;
+  height: 28px;
+}
+.posts-right-out-top-header h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #29313d;
+  margin-top: 5px;
+  text-transform: capitalize;
+  font-family: "Poppins", serif;
+}
+.posts-right-out-top-icon-one {
+  background: #6a55ea;
+  color: white;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+}
+.posts-right-out-top-icon-two {
+  background: rgba(105, 85, 234, 0.1);
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+}
+.posts-right-out-top-icon-one i {
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+}
+.posts-right-out-top-icon-two i {
+  margin-top: 50%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+}
+.posts-right-div-item {
+  width: 210px;
+  height: 210px;
+  background: #c4c4c4;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.posts-right-tag {
+  width: 203px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  
+}
+.posts-right-tag h3 {
+  font-size: 28px;
+  font-family: "Poppins", serif;
+  color: #29313d;
+  font-weight: 400;
+}
+/* posts section end */
