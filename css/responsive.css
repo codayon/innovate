@@ -1,0 +1,179 @@
+/* Extra large devices */
+@media (min-width: 1200px) {
+}
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Extra small devices */
+@media (min-width: 320px) and (max-width: 575.98px) {
+  #banner {
+    padding-top: 160px;
+    padding-bottom: 95px;
+  }
+  .banner-text h1 {
+    font-size: 43px;
+    line-height: 50px;
+  }
+  .navbar {
+    background: ghostwhite;
+  }
+  .navbar {
+    height: 100vh;
+  }
+  .service-text h3 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 36px;
+  }
+  .service-div {
+    display: block;
+  }
+  .product-text h3 {
+    width: 300px;
+    font-size: 30px;
+    line-height: 115%;
+  }
+  .product-text p {
+    width: 286px;
+    font-size: 16px;
+    line-height: 140%;
+    padding-top: 18px;
+  }
+  .product-image-item {
+    height: 0px;
+    width: 0px;
+  }
+  .product-image-back-item {
+    height: 0px;
+    width: 0px;
+  }
+  .service-div-item {
+    padding-bottom: 100px;
+  }
+  .product-text-div {
+    padding-top: 40px;
+    display: block;
+  }
+  .product-text-div-item {
+    display: block;
+    padding-bottom: 20px;
+  }
+  .showcase-item {
+    height: 400px;
+    width: 200px;
+    margin: 50px auto;
+  }
+  .showcase-text h3 {
+    font-size: 36px;
+    padding-bottom: 40px;
+    line-height: 40px;
+  }
+  .showcase-text p {
+    line-height: 30px;
+  }
+  .companies-text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  .companies-logo {
+    display: block;
+    justify-content: space-between;
+  }
+  .subscription-text h3 {
+    line-height: 116%;
+  }
+  .subscription-text p {
+    padding-top: 18px;
+    font-size: 22px;
+    line-height: 20px;
+  }
+  .subscription-option {
+    display: block;
+  }
+  .subcription-options {
+    width: 290px;
+    height: 590px;
+    margin-bottom: 100px;
+  }
+  .subscription-options-two h3 {
+    font-size: 40px;
+  }
+  .subscription-options-two-button p {
+    border-radius: 10px;
+    padding: 18px 10px;
+  }
+  .posts-left-out h3 {
+    font-size: 44px;
+    padding-bottom: 14px;
+  }
+  .posts-left-text-header {
+    font-size: 20px;
+    line-height: 140%;
+  }
+  .posts-right-out-top-header h3 {
+    font-size: 24px;
+  }
+  .posts-right-out-top {
+    padding-top: 30px;
+  }
+  .posts-right-out-top-icon-one {
+    color: white;
+    height: 48px;
+    width: 50px;
+  }
+  .posts-right-out-top-icon-two {
+    height: 48px;
+    width: 48px;
+  }
+  .posts-right-div-item {
+    width: 130px;
+    height: 140px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  .banner-bottom-inside {
+    padding: 90px 30px;
+    border-radius: 0px;
+  }
+  .banner-bottom-inside h3 {
+    font-size: 26px;
+    line-height: 112%;
+  }
+  .banner-bottom-button {
+    margin-top: 30px;
+  }
+  .footer-column-one-flexy {
+    display: block;
+  }
+  .footer-text-one p {
+    font-size: 16px;
+    line-height: 148%;
+    padding-top: 20px;
+    width: 290px;
+  }
+  .footer-column-two-active p {
+    padding-top: 70px;
+  }
+  .footer-column-two-footer {
+    display: block;
+  }
+  .footer-column-two-footer-right {
+    display: block;
+  }
+  .footer-column-two-footer-left p,
+  .footer-column-two-footer-right p {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+}
