@@ -28,7 +28,7 @@
     background: ghostwhite;
   }
   .navbar {
-    height: 100vh;
+    padding-top: 30px  ;
   }
   .service-text h3 {
     padding-top: 60px;
